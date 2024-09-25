@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_FpwcAHt-Ee-F-OrXxih-4A" elementId="com.vogella.example.tasks.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_G4ccsHt-Ee-F-OrXxih-4A" elementId="com.vogella.example.tasks.trimmedwindow.taskmanager" label="Task Manager">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_-Id_YHt-Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_-txr4Ht-Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_BEE04Ht_Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.part.overview" contributionURI="bundleclass://com.vogella.example.tasks/com.vogella.example.tasks.parts.TodoOverviewPart" label="Overview"/>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="__Pf44Ht-Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.partsashcontainer.1">
+        <children xsi:type="basic:PartStack" xmi:id="__4d9YHt-Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_DPTWUHt_Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.part.details" contributionURI="bundleclass://com.vogella.example.tasks/com.vogella.example.tasks.parts.TodoDetailsPart" label="Details"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_Al-joHt_Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.partstack.2">
+          <children xsi:type="basic:Part" xmi:id="_E0tN4Ht_Ee-I1t1AciFs1Q" elementId="com.vogella.example.tasks.part.playground" contributionURI="bundleclass://com.vogella.example.tasks/com.vogella.example.tasks.parts.PlaygroundPart" label="Playground"/>
+        </children>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_FpwcAXt-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_FpwcAnt-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_FpwcA3t-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_FpwcBHt-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_FpwcBXt-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_FpwcBnt-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_FpwcB3t-Ee-F-OrXxih-4A" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
